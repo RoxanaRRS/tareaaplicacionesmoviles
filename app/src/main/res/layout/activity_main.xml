@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.roxana.roxana.MainActivity">
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:id="@+id/ERahel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingeniera Roxana Raquel Rodríguez estudia Ingenierpia en Sistemas en la Universidad Centroamericana "
+        android:textColorHint="#f5f905cd"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="Roxana escribe lo que te Gusta hacer"
+        android:textColor="#303F9F"
+        android:textStyle="italic"
+        android:layout_below="@+id/ERahel"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:id="@+id/imageV"
+        android:src="@drawable/roxana"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editText" />
+</RelativeLayout>
